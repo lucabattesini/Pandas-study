@@ -1,5 +1,7 @@
 import pandas as pd
 
+#Imprimindo propriedades e nomeando vetores e rótulos
+
 #Serie
 alunos = pd.Series({'M1':'Luca','M2':'Clara','M3':'Yannick','M4':'Juan','M5':'Milena',})
 
@@ -27,3 +29,12 @@ print('Vetor de rótulos:', rotulos)
 print('tipo:', alunos_tipo)
 print('dtype da Serie:', alunos_dtype)
 print('Dtype do vetor de rótulos:', alunos_idx_dtype)
+
+
+#Data types:
+#values : vetor de dados;
+#index : vetor de rótulos;
+#name : nome do vetor de dados;
+#size : tamanho da Series (número de elementos);
+#index.name : nome do vetor de rótulos;
+#index.dtype : dtype do vetor de rótulos.
