@@ -11,3 +11,12 @@ dados = {'jogador': ['Luca', 'Felipe', 'Diogo', 'Carlos'],
 df = pd.DataFrame(dados)
 
 #Calculando a variabilidade
+print('juiz 1')
+print("amplitude:", df['juiz1'].max() - df['juiz1'].min())
+print("variância:", df['juiz1'].var())
+print("desvio padrão:", df['juiz1'].std())
+
+print('juiz 2')
+print("amplitude:", df['juiz2'].max() - df['juiz2'].min())
+print("variância:", df['juiz2'].var())
+print("desvio padrão:", df['juiz2'].std())
